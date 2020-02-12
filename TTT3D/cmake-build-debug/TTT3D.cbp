@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TTT3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sherley_huang/projects/TTT3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sherley_huang/projects/TTT3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sherley_huang/projects/TTT3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TTT3D">
+				<Option output="/Users/sherley_huang/projects/TTT3D/cmake-build-debug/TTT3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sherley_huang/projects/TTT3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sherley_huang/projects/TTT3D/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 TTT3D"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TTT3D/fast">
+				<Option output="/Users/sherley_huang/projects/TTT3D/cmake-build-debug/TTT3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sherley_huang/projects/TTT3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sherley_huang/projects/TTT3D/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 TTT3D/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sherley_huang/projects/TTT3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/constants.hpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/deadline.hpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/gamestate.cpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/gamestate.hpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/main.cpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/move.hpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/player.cpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/player.hpp">
+			<Option target="TTT3D"/>
+		</Unit>
+		<Unit filename="/Users/sherley_huang/projects/TTT3D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
